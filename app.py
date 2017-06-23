@@ -51,7 +51,7 @@ class Item(Document):
 
 @app.route('/')
 def index():
-    return render_template("index.html",items = Item.objects())
+    return "Hello"
 
 # @app.route('/about/')
 # def about():
